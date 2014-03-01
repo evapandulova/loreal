@@ -1,42 +1,382 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html id="videoPage" class="no-js videoPage" role="application">
+<head>
+    <meta charset="utf-8" />
+    <title>Switch The Look</title>
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Switch The Look">
+    <meta name="format-detection" content="telephone=no">
+    
+    <link rel="stylesheet" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/css/app.css" media="screen" />
+    <link rel="stylesheet" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/css/switchTheLook.css" media="screen" />
+    <!-- <link rel="stylesheet" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/css/pages/video.css" media="screen" /> -->
+    <link rel="stylesheet" href="css/mad.css" media="screen" />
+    
+    <!--[if lt IE 9]>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/js/libs/polyfills/html5shiv.js"></script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/js/libs/polyfills/respond.js"></script>
+    <![endif]-->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/touch-icon72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/touch-icon114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/touch-icon144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="512x512" href="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/touch-icon512x512.png" />
+    <meta name="msapplication-TileImage" content="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/media/images/icons/touch-icon144x144.png" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="application-name" content="Switch The Look" />
+    
+</head>
+<body>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <div id="video" class="layout page video current" role="window">
+        <header class="header" id="header" style="display:none">
+            <div class="headerHeader" id="headerHeader">
+                <h1 id="branding">
+                    <a id="logo" class="logo" rel="home" href="index.html">
+                        <span class="nickname">Switch The Look</span>
+                        <span id="baseline" class="baseline">Makeup trends at your fingertips</span>
+                    </a>
+                    <span id="owner" class="owner">
+                        <span class="by">by</span>
+                        <span id="ownerLogo" class="logo">L'OREAL PARIS</span>
+                        <span id="ownerBaseline" class="baseline">Parce que vous le valez bien.</span>
+                    </span>
+                </h1>
+            </div>
+            <div class="headerContent" id="headerContent">
+                <script id="mainNav-tpl" type="text/x-handlebars-template">
+                <nav id="mainNav" class="mainNav">
+                    {{#if categories}}
+                    <ul class="lv1">
+                        {{#each categories}}
+                        {{#if isActive}}
+                        <li id="{{name}}NavItem" class="item navItem lv1 {{name}}NavItem" data-key="{{name}}">
+                            <a id="{{name}}Action" class="action {{name}}Action" href="?cat={{name}}" onclick="return handleLink('Navigation - Main', 'Click', '{{displayName}}', null, false);"><span class="label">{{displayName}}</span></a>
+                            {{#if categories}}
+                            <ul class="lv2">
+                                {{#each categories}}
+                                {{#if isActive}}
+                                <li id="{{name}}NavItem" class="item navItem lv2 {{name}}NavItem" data-key="{{name}}">
+                                    <a id="{{name}}Action" class="action {{name}}Action" href="?cat={{../name}}&scat={{name}}" onclick="return handleLink('Navigation - Categories', 'Click', '{{displayName}}', null, false);"><span class="label">{{displayName}}</span></a>
+                                </li>
+                                {{/if}}
+                                {{/each}}
+                            </ul>
+                            {{/if}}
+                        </li>
+                        {{/if}}
+                    {{/each}}
+                    </ul>
+                    {{/if}}
+                </nav>
+                </script>
+            </div>
+            <div class="headerFooter" id="headerFooter"></div>
+        </header>
+        
+        <div id="body" class="body">
+            
+            <div id="main" class="main" role="main">
+                <header id="mainHeader" class="header mainHeader">
+                    <a id="goToMainNavAction" class="action goToMainNavAction" href="#mainNav"><span class="label">Menu</span></a>
+                    <h2 class="title">Home</h2>
+                    <div class="actions">
+                        <a id="makeFullscreenAction" class="action makeFullscreenAction"><span class="label">Fullscreen</span></a>
+                    </div>
+                </header>
+                <div id="mainContent"  class="content mainContent loading" role="main">
+                    
+                    <div id="loading">
+                        <progress id="progress-value" class="progress-value" value="0" max="100"></progress>
+                        <span id="progress-text" class="progress-text">loading...</span>
+                    </div>
+                    
+                    <script id="productsMenu-tpl" type="text/x-handlebars-template">
+                    <section id="products" class="products">
+                        <div class="content">
+                            <ul id="productsList" class="productsList">
+                                {{#each products}}
+                                {{#if isActive}}
+                                <li>
+                                    <a id="viewProductAction" class="viewAction viewProductAction" href="{{getUrlForProduct name}}" onclick='return handleLink("Product List", "Click", "{{displayName}}", "{{getUrlForProduct name}}", false);'>
+                                        <img class="pics" src="{{../baseUrl}}{{imageURL}}" alt="{{displayName}}" />
+                                        <span class="name">
+                                            <span class="title">{{title}}</span>
+                                            <span class="subtitle">{{subtitle}}</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                {{/if}}
+                                {{/each}}
+                            </ul>
+                            <p class="noData">{{ui.emptyCategory}}</p>
+                        </div>
+                        <a id="toggleProductsListAction" class="toggleProductsListAction"><span class="label">Show/hide Products</span></a>
+                    </section>
+                    </script>
+                    
+                    <section id="beforeAfter" class="beforeAfter">
+                        <div id="videoContainer" class="videoContainer"></div>
+                        <div id="controls">
+                            <a href="#v1" class="action playAction" id="playAction"><span class="label">Play</span></a>
+                        </div>
+                        <div id="result" class="result"><canvas id="c1" width="460" height="198"></canvas><canvas id="c2" width="460" height="198"></canvas></div>
+                        <span class="divider" id="divider"></span>
+                    </section>
+                    
+                    <section class="productDetail" id="productDetail">
+                    
+                        <section id="preview" class="preview">
+                            <script id="product-preview-template" type="text/x-handlebars-template">
+                            <div class="content" {{#if product.switchesBgURL}}style="background-image:url({{baseUrl}}{{product.switchesBgURL}})"{{/if}}>
+                                <h4 id="productLogo" class="name logo" style="background-image:url({{baseUrl}}{{product.logoURL}})">{{product.displayName}}</h4>
+                                {{#each product.switches}}
+                                <div id="switch{{@index}}" class="switch" data-index="{{@index}}">
+                                    {{#if lightEffectURL}}
+                                    <img id="lightEffect{{@index}}" class="lightEffect" src="{{../baseUrl}}{{lightEffectURL}}" alt="" />
+                                    {{/if}}
+                                    {{#if containerBgURL}}
+                                    <img id="switchContainerBg{{@index}}" class="switchContainerBg " src="{{../../baseUrl}}{{containerBgURL}}" alt="{{product.displayName}}" />
+                                    {{/if}}
+                                    <img id="switchContent{{@index}}" class="switchContent switch-p2 switch-item" src="{{../baseUrl}}{{#if contentBgURL}}{{contentBgURL}}{{else}}{{contentFgURL}}{{/if}}" alt="{{product.displayName}}" />
+                                    {{#if containerFgURL}}
+                                    <img id="switchContainerFg{{@index}}" class="switchContainerFg switch-p3" src="{{../../baseUrl}}{{containerFgURL}}" alt="{{product.displayName}}" />
+                                    {{/if}}
+                                </div>
+                                {{/each}}
+                                <p id="interactionHint" class="hint interactionHint">{{{product.hint}}}</p>
+                                {{#if product.colors}}
+                                <ul id="colorSwatches" class="colors colorSwatches">
+                                {{#each product.colors}}
+                                    <li class="color colorSwatch {{#if isCurrent}}current{{/if}}" style="background-color:{{color}}"><a class="viewAction viewColorAction" href="{{getUrlForProduct productName}}"><span class="label">{{color}}</span></a></li>
+                                {{/each}}
+                                </ul>
+                                {{/if}}
+                                {{#if product.switchesFgURL}}
+                                    <img  id="switchesFg" class="switchesFg" src="{{baseUrl}}{{product.switchesFgURL}}" alt="" />
+                                {{/if}}
+                            </div>
+                            </script>
+                        </section>
+                        
+                        <section id="ecommerce" class="ecommerce">
+                            <header>
+                                <a id="shopTheLookTitleAction">
+                                    <h3 id="shopTheLookTitle" class="title"></h3>
+                                </a>
+                            </header>
+                            <div class="content">
+                                
+                                <script id="product-ecommerce-main-template" type="text/x-handlebars-template">
+                                <section id="mainProductDetail" class="mainProductDetail">
+                                    <div class="content">
+                                        <article class="product" id="product">
+                                            <div class="media">
+                                                <img class="pics" src="{{baseUrl}}{{product.imageURL}}" alt="{{product.displayName}}" />
+                                            </div>
+                                            <div class="data">
+                                                <h5 class="name">{{product.displayName}}</h5>
+                                                <p class="subtitle">{{product.subtitle}}</p>
+                                                <div class="price">
+                                                    {{#if product.price}}
+                                                    <span class="value">{{product.price}}</span>
+                                                    <span class="currency">{{product.currency.abbr}}</span>
+                                                    {{/if}}
+                                                </div>
+                                                {{#if product.shopURL}}
+                                                <a class="action buyAction" href="{{product.shopURL}}" target="_blank" onclick='return handleLink("Main Product Buy", "Click", "{{product.displayName}}", "{{product.shopURL}}", true);'><span class="label">{{ui.buyBtnLabel}}</span></a>
+                                                {{/if}}
+                                                {{#if product.getTheLookURL}}
+                                                <a class="action viewAction" href="{{product.getTheLookURL}}"  target="_blank" onclick='return handleLink("Get The Look - Main Product", "Click", "{{product.displayName}}", "{{product.getTheLookURL}}", true);'><span class="label">{{ui.viewBtnLabel}}</span></a>
+                                                {{/if}}
+                                            </div>
+                                        </article>
+                                    </div>
+                                </section>
+                                
+                                <section id="relatedProductsDetail" class="relatedProductsDetail">
+                                    <header>
+                                        <h4 id="completeTheLookTitle" class="title"></h4>
+                                    </header>
+                                    <div class="content">
+                                        <ul id="relatedProductList" class="productList relatedProductList">
+                                            {{#each product.relatedProducts}}
+                                            <li>
+                                            <article class="product" id="product">
+                                                <div class="media">
+                                                    <img class="pics" src="{{../baseUrl}}{{imageURL}}" alt="{{displayName}}" />
+                                                </div>
+                                                <div class="data">
+                                                    <h5 class="title name">{{displayName}}</h5>
+                                                    <p class="subtitle">{{subtitle}}</p>
+                                                    <div class="price">
+                                                        {{#if price}}
+                                                        <span class="value">{{price}}</span>
+                                                        <span class="currency">{{currency.abbr}}</span>
+                                                        {{/if}}
+                                                    </div>
+                                                    {{#if shopURL}}
+                                                    <a class="action buyAction" href="{{shopURL}}" target="_blank" onclick='return handleLink("Complementary Product Buy", "Click", "{{displayName}}", "{{shopURL}}", true);'><span class="label">{{../../ui.buyBtnLabel}}</span></a>
+                                                    {{/if}}
+                                                    {{#if getTheLookURL}}
+                                                    <a class="action viewAction" href="{{getTheLookURL}}" target="_blank" onclick='return handleLink("Get The Look - Complementary Product", "Click", "{{displayName}}", "{{getTheLookURL}}", true);'><span class="label">{{../../ui.viewBtnLabel}}</span></a>
+                                                    {{/if}}
+                                                </div>
+                                            </article>
+                                            </li>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </section>
+                                </script>
+                                
+                            </div>  
+                        </section>
+                    
+                    </section>
+                
+                </div>
+                <footer id="mainFooter" class="footer mainFooter"></footer>
+            </div>
+        </div>
+        
+        <footer id="footer" class="footer" role="contentinfo">
+            <header id="footerheader" class="header footerHeader"></header>
+            <div id="footerContent" class="content footerContent"></div>
+            <footer id="footerFooter" class="footer footerFooter"></footer>
+        </footer>
+        
+    </div>
+    
+    <div id="stats"><div id="fps"></div></div>
+    
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/libs/modernizr/modernizr.custom.js"></script>
+    <script>document.write('<script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/libs/frameworks/' + ('__proto__' in {} ? 'zepto' : 'jquery' + ( navigator.userAgent.match(/MSIE [678]/) ? '-1.X' : '' )) + '.js"><\/script>')</script>
+    <script>if ( typeof Zepto === 'undefined' && typeof jQuery !== 'undefined' ){ var Zepto = jQuery; }</script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/libs/templating/handlebars.js"></script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/libs/polyfills/raf.js"></script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/min/app.min.js"></script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/min/switchTheLook.min.js"></script>
+    <script src="https://loreal-fyi-int-videos-pad.brainsonic.com/1/stl/public/js/pages/min/video.min.js"></script>
+    <script>$(document).ready(function(){ app.init(); })</script>
+    <script type="text/javascript">
+        // Init GA variable
+       var _gaq;
+        var ie = (function(){
+            var undef,rv = -1; // Return value assumes failure.
+            if (navigator.appName == 'Microsoft Internet Explorer')
+            {
+                var ua = navigator.userAgent;
+                var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                if (re.exec(ua) != null)
+                    rv = parseFloat( RegExp.$1 );
+            }
+        
+            return ((rv > -1) ? rv : undef);
+        }());
+        
+        function checkLaunchPopup(objHref){
+            if((objHref.indexOf("commerce-connector") > -1) && (objHref.indexOf("de") > -1)){
+                if(ie){
+                    var xdr = new XDomainRequest();
+                    xdr.onload = function(res) {
+                       var $result = $(xdr.responseText).find("#commerce-connector");
+                        appendConnector($result);
+                    } 
+                    xdr.open('GET', objHref);
+                    xdr.send();
+                }else{
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+                    $.ajax({
+                        url: objHref, 
+                        cache: false,
+                        success: function(response) {
+                            var $result = $(response).find("#commerce-connector");
+                            appendConnector($result);
 
-        <!-- Add your site or application content here -->
-        <p>Loreal!</p>
+                        }
+                    });
+                }
+                return true;
+            }
+            return false;            
+           
+        }        
+        
+        
+        function appendConnector($result){
+            var $commerceConnector = $("#commerce-connector");  
+            if($commerceConnector.length > 0){
+                $commerceConnector.remove();
+            }
+            $($result).hide().appendTo("#result").show();   
+            $("#result").on("click", "#cc-close-btn", function(e){
+                $("#commerce-connector").remove();
+                e.preventDefault();
+            }); 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+            $("#result").on("click", ".connector-item a", function(e){
+                var storeHref = $(this).attr('href');
+                var win=window.open(storeHref, '_blank'); win.focus();
+                e.preventDefault();
+            }); 
+        } 
+        
+        function pushGAT(eventCategory, eventAction, eventLabel)
+        {
+            //if gaq is loaded in app switchTheLook.js
+            if(_gaq != null){
+                _gaq.push(['_trackEvent', eventCategory, eventAction, eventLabel]); 
+            }           
+        }
+        
+        $(document).ready(function(){ 
+            setTimeout(function(){
+                var productTitle = $('.mainProductDetail .data h5.name').html();
+                if(productTitle != null){
+                    pushGAT('Product loaded','load',productTitle); 
+                }            
+            },500);
+            
+        });
+        
+        function handleLink(eventCategory, eventAction, eventLabel, objHref, newTab){
+            pushGAT(eventCategory, eventAction, eventLabel);
+            if ( objHref !== null )
+            {               
+                if(checkLaunchPopup(objHref)){
+                    return false;   
+                }else{
+                    if(!ie){
+                        setTimeout(function(){
+                            if ( newTab){ 
+                               
+                                var win=window.open(objHref, '_blank'); win.focus();
+                            }
+                            else { window.location.href = objHref; }
+                        }, 300);
+                        return false;
+                    }
+                    return true;
+                }
+            }
+        }
+        
+    </script>
+</body>
 </html>

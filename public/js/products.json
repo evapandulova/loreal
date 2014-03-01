@@ -1,0 +1,2306 @@
+{
+	"ui": {
+		"stlLogoBigUrl": null,
+		"eyesMenuBgUrl": null,
+		"lipsMenuBgUrl": null,
+		"nailsMenuBgUrl": null,
+		"shopTheLookLabel": "<div class='l1'>Shop</div><div class='l2'><small >The</small></div><div class='l3'>Look</div>",
+		"getTheLookLabel": "<div class='l1'>Get</div><div class='l2'><small>The</small></div><div class='l3'>Look</div>",
+		"getTheLookURL": "",
+		"completeTheLookLabel": "<div class='l1'>Complete</div><div class='l2'>The Look</div>",
+		"buyBtnLabel": "BUY IT",
+		"viewBtnLabel": "DISCOVER",
+		"emptyCategory": "There's nothing here for the moment.",
+		"gaId": null
+	},
+	"products": {
+		"megaVolumeMissManga": {
+			"id": "MVMANGA",
+			"code": "Cos202_1",
+			"name": "megaVolumeMissManga",
+			"title": "Megavolumen",
+			"subtitle": "Miss Manga",
+			"displayName": "Mega Volume Miss Manga",
+			"isActive": true,
+			"videos": {
+				"name": "megaVolumeMissManga_before-after",
+				"path": "public/products/megaVolumeMissManga/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/megaVolumeMissManga/logo.png",
+			"imageURL": "public/products/megaVolumeMissManga/megaVolumeMissManga.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/megaVolumeMissManga/content-bg.png",
+				"containerFgURL": "public/products/megaVolumeMissManga/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/megaVolumeMissManga/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/megaVolumeMissManga/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Miss Manga Mega Volume to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLBBUSTER",
+				"code": "Cos23_1",
+				"displayName": "Superliner",
+				"subtitle": "Blackbuster",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/megaVolumeMissManga/superLinerBlackbuster.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "APBLUSH145",
+				"code": "Cos145_3",
+				"displayName": "Accord Perfect",
+				"subtitle": "Blush 145",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/megaVolumeMissManga/accordPerfectBlush145.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"megaVolumeMissMangaTurquoise": {
+			"id": "MVMANGA",
+			"code": "Cos202_1",
+			"name": "megaVolumeMissMangaTurquoise",
+			"title": "MEGA VOLUME",
+			"subtitle": "Miss Manga Turquoise",
+			"displayName": "Mega Volume Miss Manga Turquoise",
+			"isActive": true,
+			"videos": {
+				"name": "megaVolumeMissMangaTurquoise_before-after",
+				"path": "public/products/megaVolumeMissMangaTurquoise/",
+				"framesCount": 379
+			},
+			"logoURL": "public/products/megaVolumeMissMangaTurquoise/logo.png",
+			"imageURL": "public/products/megaVolumeMissMangaTurquoise/megaVolumeMissManga.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/megaVolumeMissMangaTurquoise/content-bg-1-turquoise-UK.png",
+				"containerFgURL": "public/products/megaVolumeMissMangaTurquoise/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/megaVolumeMissMangaTurquoise/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/megaVolumeMissMangaTurquoise/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>MEGA VOLUME MISS MANGA<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": "00,00",
+			"currency": {
+				"name": "pounds",
+				"abbr": "£"
+			},
+			"shopURL": "http://www.boots.com/en/LOreal/Make-Up/LOreal-Mascara/",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/missmanga",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLBBUSTER",
+				"code": "Cos23_1",
+				"displayName": "SUPERLINER",
+				"subtitle": "Blackbuster",
+				"price": "6,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/megaVolumeMissMangaTurquoise/superLinerBlackbuster.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Super-Liner-Blackbuster-Intense_1309105/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/eye/super-liner/blackbuster-intense-black.aspx"
+			}, {
+				"id": "CRQUADE4TAUPE",
+				"code": "Cos145_3",
+				"displayName": "COLOR RICHE",
+				"subtitle": "Quads",
+				"price": "7,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/superLinerSilkissime/crquade4taupe.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Colour-Riche-Quad_1279242/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/cosmetics/eyes/color-riche-eyeshadow/midnight.aspx"
+			}]
+		},
+		"megaVolumeMissMangaViolet": {
+			"id": "MVMANGAV",
+			"code": "Cos202_1",
+			"name": "megaVolumeMissMangaViolet",
+			"title": "MEGA VOLUME",
+			"subtitle": "Miss Manga Violet",
+			"displayName": "Mega Volume Miss Manga Violet",
+			"isActive": true,
+			"videos": {
+				"name": "megaVolumeMissMangaViolet_before-after",
+				"path": "public/products/megaVolumeMissMangaViolet/",
+				"framesCount": 379
+			},
+			"logoURL": "public/products/megaVolumeMissMangaViolet/logo.png",
+			"imageURL": "public/products/megaVolumeMissMangaViolet/megaVolumeMissManga.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/megaVolumeMissMangaViolet/content-bg-1-violet-UK.png",
+				"containerFgURL": "public/products/megaVolumeMissMangaViolet/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/megaVolumeMissMangaViolet/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/megaVolumeMissMangaViolet/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>MEGA VOLUME MISS MANGA<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": "00,00",
+			"currency": {
+				"name": "pounds",
+				"abbr": "£"
+			},
+			"shopURL": "http://www.boots.com/en/LOreal/Make-Up/LOreal-Mascara/",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/missmanga",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLBBUSTER",
+				"code": "Cos23_1",
+				"displayName": "SUPERLINER",
+				"subtitle": "Blackbuster",
+				"price": "6,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/megaVolumeMissMangaViolet/superLinerBlackbuster.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Super-Liner-Blackbuster-Intense_1309105/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/eye/super-liner/blackbuster-intense-black.aspx"
+			}, {
+				"id": "CRQUADE4TAUPE",
+				"code": "Cos145_3",
+				"displayName": "COLOR RICHE",
+				"subtitle": "Quads",
+				"price": "7,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/superLinerSilkissime/crquade4taupe.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Colour-Riche-Quad_1279242/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/cosmetics/eyes/color-riche-eyeshadow/midnight.aspx"
+			}]
+		},
+		"megaVolumeMissMangaBlack": {
+			"id": "MVMANGA",
+			"code": "Cos202_1",
+			"name": "megaVolumeMissMangaBlack",
+			"title": "MEGA VOLUME",
+			"subtitle": "Miss Manga Black",
+			"displayName": "Mega Volume Miss Manga Black",
+			"isActive": true,
+			"videos": {
+				"name": "megaVolumeMissMangaBlack_before-after",
+				"path": "public/products/megaVolumeMissMangaBlack/",
+				"framesCount": 379
+			},
+			"logoURL": "public/products/megaVolumeMissMangaBlack/logo.png",
+			"imageURL": "public/products/megaVolumeMissMangaBlack/megaVolumeMissManga.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/megaVolumeMissMangaBlack/content-bg.png",
+				"containerFgURL": "public/products/megaVolumeMissMangaBlack/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/megaVolumeMissMangaBlack/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/megaVolumeMissMangaBlack/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>MEGA VOLUME MISS MANGA<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": "00,00",
+			"currency": {
+				"name": "pounds",
+				"abbr": "£"
+			},
+			"shopURL": "http://www.boots.com/en/LOreal/Make-Up/LOreal-Mascara/",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/missmanga",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLBBUSTER",
+				"code": "Cos23_1",
+				"displayName": "SUPERLINER",
+				"subtitle": "Blackbuster",
+				"price": "6,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/megaVolumeMissMangaBlack/superLinerBlackbuster.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Super-Liner-Blackbuster-Intense_1309105/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/eye/super-liner/blackbuster-intense-black.aspx"
+			}, {
+				"id": "CRQUADE4TAUPE",
+				"code": "Cos145_3",
+				"displayName": "COLOR RICHE",
+				"subtitle": "Quads",
+				"price": "7,99",
+				"currency": {
+					"name": "pounds",
+					"abbr": "£"
+				},
+				"imageURL": "public/products/superLinerSilkissime/crquade4taupe.png",
+				"shopURL": "http://www.boots.com/en/LOreal-Paris-Colour-Riche-Quad_1279242/",
+				"getTheLookURL": "http://www.loreal-paris.co.uk/cosmetics/eyes/color-riche-eyeshadow/midnight.aspx"
+			}]
+		},
+		"volumeMillionLashesSoCouture": {
+			"id": "VMLCOUTURE",
+			"code": "Cos159_5",
+			"name": "volumeMillionLashesSoCouture",
+			"title": "Volume Million Lashes",
+			"subtitle": "So Couture",
+			"displayName": "Volume Million Lashes So Couture",
+			"isActive": true,
+			"videos": {
+				"name": "volumeMillionLashesSoCouture_before-after",
+				"path": "public/products/volumeMillionLashesSoCouture/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/volumeMillionLashesSoCouture/logo.png",
+			"imageURL": "public/products/volumeMillionLashesSoCouture/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/volumeMillionLashesSoCouture/content-bg.png",
+				"containerFgURL": "public/products/volumeMillionLashesSoCouture/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/volumeMillionLashesSoCouture/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/volumeMillionLashesSoCouture/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Volume Million Lashes So Couture to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLCOUTURE",
+				"code": null,
+				"displayName": "Liner",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/volumeMillionLashesSoCouture/linerSoCouture_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "MLILLUM",
+				"code": "Cos152_1",
+				"displayName": "Luz Magique",
+				"subtitle": "Illuminador",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/volumeMillionLashesSoCouture/lumiMagicIlluminating.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"volumeMillionLashesExcessBlack": {
+			"id": "VMLXBLACK",
+			"code": "Cos159_3",
+			"name": "volumeMillionLashesExcessBlack",
+			"title": "Volume Million Lashes",
+			"subtitle": "Excess Black",
+			"displayName": "Volume Million Lashes Excess Black",
+			"isActive": true,
+			"videos": {
+				"name": "volumeMillionLashesExcessBlack_before-after",
+				"path": "public/products/volumeMillionLashesExcessBlack/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/volumeMillionLashesExcessBlack/logo.png",
+			"imageURL": "public/products/volumeMillionLashesExcessBlack/volumeMillionLashesExcessBlack.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/volumeMillionLashesExcessBlack/content-bg.png",
+				"containerFgURL": "public/products/volumeMillionLashesExcessBlack/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/volumeMillionLashesExcessBlack/lighteffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/volumeMillionLashesExcessBlack/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Volume Million Lashes Excess Black to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRQUADE3",
+				"code": "Cos121_1",
+				"displayName": "Color Riche",
+				"subtitle": "Quad E3 Forever Bronze",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/volumeMillionLashesExcessBlack/colorRicheQuadE3ForeverBronze_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRSMOK201",
+				"code": "Cos67_1",
+				"displayName": "Color Riche",
+				"subtitle": "Smoky 201",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/volumeMillionLashesExcessBlack/colorRicheSmocky201_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"falseLashButterfly": {
+			"id": "FLBUTTERFLY",
+			"code": "Cos21_1",
+			"name": "falseLashButterfly",
+			"title": "False Lash",
+			"subtitle": "Butterfly",
+			"displayName": "False Lash Butterfly",
+			"isActive": true,
+			"videos": {
+				"name": "falseLashButterfly_before-after",
+				"path": "public/products/falseLashButterfly/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/falseLashButterfly/logo.png",
+			"imageURL": "public/products/falseLashButterfly/falseLashButterfly.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/falseLashButterfly/content-bg.png",
+				"containerFgURL": "public/products/falseLashButterfly/container-fg.png",
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/falseLashButterfly/lightEffect.png",
+				"lightEffectOffset": [20, 0]
+			}],
+			"switchesBgURL": "public/products/falseLashButterfly/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the False Lash Butterfly to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRQUADE5",
+				"code": "Cos121_2",
+				"displayName": "Color Riche",
+				"subtitle": "Quad E5 Incredible Grey",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/falseLashButterfly/colorRicheQuadE5IncredibleGrey_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/falseLashButterfly/superLinerPerfectSlim_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"superLinerSilkissime": {
+			"id": "SLSILKISSIME",
+			"code": "Cos22_1",
+			"name": "superLinerSilkissime",
+			"title": "Super Liner",
+			"subtitle": "Silkissime",
+			"displayName": "Super Liner Silkissime",
+			"isActive": true,
+			"videos": {
+				"name": "superLinerSilkissime_before-after",
+				"path": "public/products/superLinerSilkissime/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/superLinerSilkissime/logo.png",
+			"imageURL": "public/products/superLinerSilkissime/superLinerSilkissime.png",
+			"switches": [{
+				"containerBgURL": "public/products/superLinerSilkissime/container-bg.png",
+				"contentBgURL": "public/products/superLinerSilkissime/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/superLinerSilkissime/lightEffect.png",
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/superLinerSilkissime/bg.png",
+			"switchesFgURL": "public/products/superLinerSilkissime/fg.png",
+			"hint": "Unlock the Super Liner Silkissime to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "MVCOLAGEN",
+				"code": "Cos168_4",
+				"displayName": "Mega Volumen",
+				"subtitle": "Colágeno 24h",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/falseLashButterfly/megaVolumeCollagene24h_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CIBLACK30",
+				"code": "Cos170_13",
+				"displayName": "Infalible",
+				"subtitle": "30 Ultimate Black",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/falseLashButterfly/infallible30UltimateBlack_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"superLinerMatMatic": {
+			"id": "SLMATIC",
+			"code": "Cos24_1",
+			"name": "superLinerMatMatic",
+			"title": "Super Liner",
+			"subtitle": "Mat Matic",
+			"displayName": "Super Liner Mat Matic",
+			"isActive": true,
+			"videos": {
+				"name": "superLinerMatMatic_before-after",
+				"path": "public/products/superLinerMatMatic/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/superLinerMatMatic/logo.png",
+			"imageURL": "public/products/superLinerMatMatic/superLinerMatMatic.png",
+			"switches": [{
+				"containerBgURL": "public/products/superLinerMatMatic/container-bg.png",
+				"contentBgURL": "public/products/superLinerMatMatic/content-fg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/superLinerMatMatic/lightEffect.png",
+				"lightEffectOffset": [206, 0]
+			}],
+			"switchesBgURL": "public/products/superLinerMatMatic/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Super Liner Mat Matic to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "VMLXBLACK",
+				"code": "Cos159_2",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "Black",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerMatMatic/volumeMillionLashesBlack_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLECRAY10",
+				"code": null,
+				"displayName": "Color Riche",
+				"subtitle": "Le Crayon 10 Sugar Vanilla",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerMatMatic/colorRicheLeCrayon10SugarVanilla_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"superLinerPerfectSlim": {
+			"id": "SLPERFSLIM",
+			"code": "Cos48_1",
+			"name": "superLinerPerfectSlim",
+			"title": "Super Liner",
+			"subtitle": "Perfect Slim",
+			"displayName": "Super Liner Perfect Slim",
+			"isActive": true,
+			"videos": {
+				"name": "superLinerPerfectSlim_before-after",
+				"path": "public/products/superLinerPerfectSlim/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/superLinerPerfectSlim/logo.png",
+			"imageURL": "public/products/superLinerPerfectSlim/superLinerPerfectSlim.png",
+			"switches": [{
+				"containerBgURL": "public/products/superLinerPerfectSlim/container-bg.png",
+				"contentBgURL": "public/products/superLinerPerfectSlim/content-fg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/superLinerPerfectSlim/lightEffect.png",
+				"lightEffectOffset": [210, 0]
+			}],
+			"switchesBgURL": "public/products/superLinerPerfectSlim/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Super Liner Perfect Slim to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRQUADE5",
+				"code": "Cos121_2",
+				"displayName": "Color Riche",
+				"subtitle": "Quad E5 Incredible Grey",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerPerfectSlim/colorRicheQuadE5IncredibleGrey_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "FLBUTTERFLY",
+				"code": "Cos21_1",
+				"displayName": "False Lash Mariposa",
+				"subtitle": "Black",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerPerfectSlim/falseLashButterFly_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"superLinerBlackbuster": {
+			"id": "SLBBUSTER",
+			"code": "Cos23_1",
+			"name": "superLinerBlackbuster",
+			"title": "Super Liner",
+			"subtitle": "Blackbuster",
+			"displayName": "Super Liner Blackbuster",
+			"isActive": true,
+			"videos": {
+				"name": "superLinerBlackbuster_before-after",
+				"path": "public/products/superLinerBlackbuster/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/superLinerBlackbuster/logo.png",
+			"imageURL": "public/products/superLinerBlackbuster/superLinerBlackbuster.png",
+			"switches": [{
+				"containerBgURL": "public/products/superLinerBlackbuster/container-bg.png",
+				"contentBgURL": "public/products/superLinerBlackbuster/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/superLinerBlackbuster/lightEffect.png",
+				"lightEffectOffset": [80, 0]
+			}],
+			"switchesBgURL": "public/products/superLinerBlackbuster/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Super Liner Blackbuster to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "MVMANGA",
+				"code": "Cos202_1",
+				"displayName": "Megavolumen",
+				"subtitle": "Miss Manga",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerBlackbuster/megaVolumeMissManga_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "APBLUSH145",
+				"code": "Cos145_3",
+				"displayName": "Accord Perfect",
+				"subtitle": "Blush 145",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/superLinerBlackbuster/accordPerfectBlush145_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"monoCameleonMarron": {
+			"id": "MCMARRON",
+			"code": "Cos203_1",
+			"name": "monoCameleonMarron",
+			"title": "Mono Cameleon",
+			"subtitle": "Marron",
+			"displayName": "Mono Cameleon Marron",
+			"isActive": true,
+			"videos": {
+				"name": "monoCameleonMarron_before-after",
+				"path": "public/products/monoCameleonMarron/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/monoCameleonMarron/logo.png",
+			"imageURL": "public/products/monoCameleonMarron/monoCameleonMarron.png",
+			"switches": [{
+				"containerBgURL": "public/products/monoCameleonMarron/container-bg.png",
+				"contentBgURL": "public/products/monoCameleonMarron/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/monoCameleonMarron/lightEffect.png",
+				"lightEffectOffset": [-70, 0]
+			}],
+			"switchesBgURL": "public/products/monoCameleonMarron/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Mono Cameleon Marron to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLGELINT",
+				"code": "Cos44_1",
+				"displayName": "Superliner",
+				"subtitle": "Get Intense",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/monoCameleonMarron/superlinerGelIntense_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CR116",
+				"code": "Cos58_20",
+				"displayName": "Color Riche",
+				"subtitle": "116",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/monoCameleonMarron/colorRiche116_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"monoLuminousPrune": {
+			"id": "MCMARRON",
+			"code": "Cos203_1",
+			"name": "monoLuminousPrune",
+			"title": "Mono Cameleon",
+			"subtitle": "Marron",
+			"displayName": "Mono Cameleon Marron",
+			"isActive": true,
+			"videos": {
+				"name": "monoLuminousPrune_before-after",
+				"path": "public/products/monoLuminousPrune/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/monoLuminousPrune/logo.png",
+			"imageURL": "public/products/monoLuminousPrune/monoCameleonMarron.png",
+			"switches": [{
+				"containerBgURL": "public/products/monoLuminousPrune/container-bg.png",
+				"contentBgURL": "public/products/monoLuminousPrune/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/monoLuminousPrune/lightEffect.png",
+				"lightEffectOffset": [-70, 0]
+			}],
+			"switchesBgURL": "public/products/monoLuminousPrune/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Mono Cameleon Marron to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLGELINT",
+				"code": "Cos44_1",
+				"displayName": "Superliner",
+				"subtitle": "Get Intense",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/monoLuminousPrune/superlinerGelIntense_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CR116",
+				"code": "Cos58_20",
+				"displayName": "Color Riche",
+				"subtitle": "116",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/monoLuminousPrune/colorRiche116_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheSpringItShade": {
+			"id": "CRSPRING",
+			"code": "Cos72_5",
+			"name": "colorRicheSpringItShade",
+			"title": "Color Riche",
+			"subtitle": "Spring It Shade",
+			"displayName": "Color Riche Spring It Shade",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheSpringItShade_before-after",
+				"path": "public/products/colorRicheSpringItShade/",
+				"framesCount": 162
+			},
+			"logoURL": "public/products/colorRicheSpringItShade/logo.png",
+			"imageURL": "public/products/colorRicheSpringItShade/colorRicheSpringItShade.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheSpringItShade/content-bg01.png",
+				"containerFgURL": "public/products/colorRicheSpringItShade/container-fg01.png",
+				"contentFgURL": "public/products/colorRicheSpringItShade/content-fg01.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}, {
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheSpringItShade/content-bg02.png",
+				"containerFgURL": "public/products/colorRicheSpringItShade/container-fg02.png",
+				"contentFgURL": "public/products/colorRicheSpringItShade/content-fg02.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheSpringItShade/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche Spring It Shade to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRLAMPEN",
+				"code": "Cos122_1",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Corrector Pen",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheSpringItShade/colorRicheLaManicureCorrectorPen_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLAMFASTD",
+				"code": "Cos122_6",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Fast Dry",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheSpringItShade/colorRicheLaManicureFastDry_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"topCoatTweed": {
+			"id": "CRTWEED",
+			"code": "Cos73_4",
+			"name": "topCoatTweed",
+			"title": "Top Coat",
+			"subtitle": "Tweed",
+			"displayName": "Top Coat Tweed",
+			"isActive": true,
+			"videos": {
+				"name": "topCoatTweed_before-after",
+				"path": "public/products/topCoatTweed/",
+				"framesCount": 162
+			},
+			"logoURL": "public/products/topCoatTweed/logo.png",
+			"imageURL": "public/products/topCoatTweed/topCoatTweed.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": null,
+				"containerFgURL": "public/products/topCoatTweed/container-fg01.png",
+				"contentFgURL": "public/products/topCoatTweed/content-fg01.png",
+				"lightEffectURL": "public/products/topCoatTweed/lightEffect.png",
+				"lightEffectOffset": [120, 10]
+			}, {
+				"containerBgURL": null,
+				"contentBgURL": null,
+				"containerFgURL": "public/products/topCoatTweed/container-fg02.png",
+				"contentFgURL": "public/products/topCoatTweed/content-fg02.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/topCoatTweed/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Top Coat Tweed It Shade to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRLAMSERUM",
+				"code": "Cos122_8",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Serum 7 en 1",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/topCoatTweed/colorRicheLaManicureSerum7en1_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLAMFASTD",
+				"code": "Cos122_7",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Fast Dry",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/topCoatTweed/colorRicheLaManicureFastDry_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"glamShineBalmyGloss": {
+			"id": "GSBALMY",
+			"code": "Cos52_1",
+			"name": "glamShineBalmyGloss",
+			"title": "Glam Shin",
+			"subtitle": "Balmy Gloss",
+			"displayName": "Glam Shine Balmy Gloss",
+			"isActive": true,
+			"videos": {
+				"name": "glamShineBalmyGloss_before-after",
+				"path": "public/products/glamShineBalmyGloss/",
+				"framesCount": 594
+			},
+			"logoURL": "public/products/glamShineBalmyGloss/logo.png",
+			"imageURL": "public/products/glamShineBalmyGloss/glamShineBalmyGloss.png",
+			"switches": [{
+				"containerBgURL": "public/products/glamShineBalmyGloss/container-bg.png",
+				"contentBgURL": "public/products/glamShineBalmyGloss/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/glamShineBalmyGloss/lightEffect.png",
+				"lightEffectOffset": [60, 0]
+			}],
+			"switchesBgURL": "public/products/glamShineBalmyGloss/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Glam Shine Balmy Gloss to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "MVMANGA",
+				"code": "Cos202_1",
+				"displayName": "Megavolumen",
+				"subtitle": "Miss Manga",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/glamShineBalmyGloss/megaVolumeMissManga_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "APBLUSH165",
+				"code": "Cos145_5",
+				"displayName": "Accord Perfect",
+				"subtitle": "Blush 165",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/glamShineBalmyGloss/accordPerfectBlush165_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheLextraordinaireRed": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaireRed",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire Red",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaireRed_before-after",
+				"path": "public/products/colorRicheLextraordinaireRed/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaireRed/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaireRed/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaireRed/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaireRed/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaireRed/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaireRed/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche L'extraodinaire Red to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireRed/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireRed/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheLextraordinaireFuschia": {
+			"id": "CREXTRAF",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaireFuschia",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Fuschia",
+			"displayName": "Color Riche L'extraodinaire Fuschia",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaireFuschia_before-after",
+				"path": "public/products/colorRicheLextraordinaireFuschia/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaireFuschia/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaireFuschia/colorRicheLextraordinaireFuschia.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaireFuschia/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaireFuschia/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaireFuschia/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaireFuschia/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche L'extraodinaire Red to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"relatedProducts": [{
+				"id": "SLBROWA",
+				"code": "Cos35_1",
+				"displayName": "Super Liner",
+				"subtitle": "Brow Artist",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireFuschia/superLinerBrowArtist_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CR501",
+				"code": "Cos302_1",
+				"displayName": "Color Riche",
+				"subtitle": "Kajal",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireFuschia/colorRicheKajal_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheLextraordinaireOrange": {
+			"id": "CREXTRAO",
+			"code": "Cos204_3",
+			"name": "colorRicheLextraordinaireOrange",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Orange",
+			"displayName": "Color Riche L'extraodinaire Orange",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaireOrange_before-after",
+				"path": "public/products/colorRicheLextraordinaireOrange/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaireOrange/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaireOrange/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaireOrange/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaireOrange/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaireOrange/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaireOrange/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche L'extraodinaire Orange to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"relatedProducts": [{
+				"id": "CRQUADE3",
+				"code": "Cos121_1",
+				"displayName": "Color Riche",
+				"subtitle": "Quad E3 Forever Bronze",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireOrange/colorRicheQuadE3ForeverBronze_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "MLPRIMER",
+				"code": "Cos152_1",
+				"displayName": "Luz Magique",
+				"subtitle": "Primer",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaireOrange/luzMagiquePrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheLextraordinaire102": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaire102",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire Red",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire102_before-after",
+				"path": "public/products/colorRicheLextraordinaire102/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire102/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire102/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire102/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire102/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire102/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire102/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 102<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire102/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire102/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheLextraordinaire201": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaireRed",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire Red",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire201_before-after",
+				"path": "public/products/colorRicheLextraordinaire201/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire201/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire201/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire201/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire201/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire201/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire201/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 201<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire201/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire201/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire301": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaireRed",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire Red",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire301_before-after",
+				"path": "public/products/colorRicheLextraordinaire301/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire301/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire301/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire301/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire301/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire301/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire301/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 301<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire301/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire301/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire100": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaire100",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire 100",
+			"displayName": "Color Riche L'extraodinaire",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire100_before-after",
+				"path": "public/products/colorRicheLextraordinaire100/",
+				"framesCount": 500
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire100/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire100/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire100/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire100/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire100/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire100/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 100<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire100/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire100/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire101": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaire101",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire 101",
+			"displayName": "Color Riche L'extraodinaire",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire101_before-after",
+				"path": "public/products/colorRicheLextraordinaire101/",
+				"framesCount": 500
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire101/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire101/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire101/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire101/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire101/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire101/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 101<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire101/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire101/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire500": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaireRed",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire 500",
+			"displayName": "Color Riche L'extraodinaire",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire500_before-after",
+				"path": "public/products/colorRicheLextraordinaire500/",
+				"framesCount": 500
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire500/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire500/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire500/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire500/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire500/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire500/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 500<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire500/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire500/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire600": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaire600",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire600_before-after",
+				"path": "public/products/colorRicheLextraordinaire600/",
+				"framesCount": 500
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire600/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire600/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire600/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire600/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire600/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire600/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 600<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire600/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire600/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"colorRicheLextraordinaire601": {
+			"id": "CREXTRAR",
+			"code": "Cos204_1",
+			"name": "colorRicheLextraordinaire601",
+			"title": "Color Riche",
+			"subtitle": "L'extraodinaire Red",
+			"displayName": "Color Riche L'extraodinaire",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheLextraordinaire601_before-after",
+				"path": "public/products/colorRicheLextraordinaire601/",
+				"framesCount": 500
+			},
+			"logoURL": "public/products/colorRicheLextraordinaire601/logo.png",
+			"imageURL": "public/products/colorRicheLextraordinaire601/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/colorRicheLextraordinaire601/content-bg.png",
+				"containerFgURL": "public/products/colorRicheLextraordinaire601/container-fg.png",
+				"contentFgURL": "public/products/colorRicheLextraordinaire601/content-fg.png",
+				"lightEffectURL": null,
+				"lightEffectOffset": [0, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheLextraordinaire601/bg.png",
+			"switchesFgURL": null,
+			"hint": "UNLOCK<br/>Color Riche L'extraodinaire 601<br/>TO SEE THE LOOK COME<br/>TO LIFE",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"getTheLookURL": "http://www.loreal-paris.co.uk/make-up/lip.aspx",
+			"relatedProducts": [{
+				"id": "VMLBLACK",
+				"code": "Cos159_3",
+				"displayName": "Volumen Millón de Pestañas",
+				"subtitle": "So Couture",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire601/volumeMillionLashesExcess_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "SLPERFSLIM",
+				"code": "Cos48_1",
+				"displayName": "Super Liner",
+				"subtitle": "Perfect Slim",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheLextraordinaire601/lumiMagicPrimer_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+
+			}]
+		},
+		"shineCaressePink": {
+			"id": "SCPINK",
+			"code": "Cos164_1",
+			"name": "shineCaressePink",
+			"title": "Shine Caresse",
+			"subtitle": "Pink",
+			"displayName": "Shine Caresse Pink",
+			"isActive": true,
+			"videos": {
+				"name": "shineCaressePink_before-after",
+				"path": "public/products/shineCaressePink/",
+				"framesCount": 593
+			},
+			"logoURL": "public/products/shineCaressePink/logo.png",
+			"imageURL": "public/products/shineCaressePink/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/shineCaressePink/content-bg.png",
+				"containerFgURL": "public/products/shineCaressePink/container-fg.png",
+				"contentFgURL": "public/products/shineCaressePink/content-fg.png",
+				"lightEffectURL": "public/products/shineCaressePink/lightEffect.png",
+				"lightEffectOffset": [70, 0]
+			}],
+			"switchesBgURL": "public/products/shineCaressePink/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Shine Caresse Pink to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": "#da82b4",
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "BBCMED",
+				"code": "Cos154_1",
+				"displayName": "BB",
+				"subtitle": "Cream Medium",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/shineCaressePink/bbCreamMedium_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "NMBBBLUSH",
+				"code": "Cos190_1",
+				"displayName": "BB",
+				"subtitle": "Blush",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/shineCaressePink/bbBlush_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRicheCrayonsCouleur": {
+			"id": "CRAYCOUL",
+			"code": "Cos164_1",
+			"name": "colorRicheCrayonsCouleur",
+			"title": "Shine Caresse",
+			"subtitle": "Pink",
+			"displayName": "Color Riche Crayons Couleur",
+			"isActive": true,
+			"videos": {
+				"name": "colorRicheCrayonsCouleur_before-after",
+				"path": "public/products/colorRicheCrayonsCouleur/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/colorRicheCrayonsCouleur/logo.png",
+			"imageURL": "public/products/colorRicheCrayonsCouleur/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": "public/products/colorRicheCrayonsCouleur/container-bg.png",
+				"contentBgURL": null,
+				"containerFgURL": null,
+				"contentFgURL": "public/products/colorRicheCrayonsCouleur/content-fg.png",
+				"lightEffectURL": "public/products/colorRicheCrayonsCouleur/lightEffect.png",
+				"lightEffectOffset": [130, 0]
+			}],
+			"switchesBgURL": "public/products/colorRicheCrayonsCouleur/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock Le Crayon de Couleur to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": "#da82b4",
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "BBCMED",
+				"code": "Cos154_1",
+				"displayName": "BB",
+				"subtitle": "Cream Medium",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheCrayonsCouleur/bbCreamMedium_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "NMBBBLUSH",
+				"code": "Cos190_1",
+				"displayName": "BB",
+				"subtitle": "Blush",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRicheCrayonsCouleur/bbBlush_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"quadSmokey": {
+			"id": "QSMOK",
+			"code": "Cos203_1",
+			"name": "quadSmokey",
+			"title": "Mono Cameleon",
+			"subtitle": "Marron",
+			"displayName": "quadSmokey",
+			"isActive": true,
+			"videos": {
+				"name": "quadSmokey_before-after",
+				"path": "public/products/quadSmokey/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/quadSmokey/logo.png",
+			"imageURL": "public/products/quadSmokey/monoCameleonMarron.png",
+			"switches": [{
+				"containerBgURL": "public/products/quadSmokey/container-bg.png",
+				"contentBgURL": "public/products/quadSmokey/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/quadSmokey/lightEffect.png",
+				"lightEffectOffset": [-70, 0]
+			}],
+			"switchesBgURL": "public/products/quadSmokey/bg.png",
+			"switchesFgURL": null,
+			"hint": "Ouvrez le produit pour le voir appliqué sur le visage",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLGELINT",
+				"code": "Cos44_1",
+				"displayName": "Superliner",
+				"subtitle": "Get Intense",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/quadSmokey/superlinerGelIntense_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CR116",
+				"code": "Cos58_20",
+				"displayName": "Color Riche",
+				"subtitle": "116",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/quadSmokey/colorRiche116_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"browArtistShaper": {
+			"id": "BROWSHAP",
+			"code": "Cos164_1",
+			"name": "browArtistShaper",
+			"title": "Shine Caresse",
+			"subtitle": "Pink",
+			"displayName": "Brow Artist Shaper",
+			"isActive": true,
+			"videos": {
+				"name": "browArtistShaper_before-after",
+				"path": "public/products/browArtistShaper/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/browArtistShaper/logo.png",
+			"imageURL": "public/products/browArtistShaper/volumeMillionLashesSoCouture.png",
+			"switches": [{
+				"containerBgURL": "public/products/browArtistShaper/container-bg.png",
+				"contentBgURL": null,
+				"containerFgURL": "public/products/browArtistShaper/container-fg.png",
+				"contentFgURL": "public/products/browArtistShaper/content-fg.png",
+				"lightEffectURL": "public/products/browArtistShaper/lightEffect.png",
+				"lightEffectOffset": [130, 0],
+				"doubleOpen": true
+			}],
+			"switchesBgURL": null,
+			"switchesFgURL": null,
+			"hint": "Unlock the Brow Artist Shaper to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": "#da82b4",
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "BBCMED",
+				"code": "Cos154_1",
+				"displayName": "BB",
+				"subtitle": "Cream Medium",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/browArtistShaper/bbCreamMedium_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "NMBBBLUSH",
+				"code": "Cos190_1",
+				"displayName": "BB",
+				"subtitle": "Blush",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/browArtistShaper/bbBlush_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		},
+		"nails_sequinexplosion": {
+			"id": "CRBLACKSAND",
+			"code": "Cos73_4",
+			"name": "nails_sequinexplosion",
+			"title": "COLOR RICHE",
+			"subtitle": "840 Black Sand",
+			"displayName": "nails_sequinexplosion",
+			"isActive": true,
+			"videos": {
+				"name": "nails_sequinexplosion_before-after",
+				"path": "public/products/nails_sequinexplosion/",
+				"framesCount": 168
+			},
+			"logoURL": "public/products/nails_sequinexplosion/logo.png",
+			"imageURL": "public/products/nails_sequinexplosion/product.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/nails_sequinexplosion/content-bg.png",
+				"containerFgURL": "public/products/nails_sequinexplosion/container-fg.png",
+				"contentFgURL": "public/products/nails_sequinexplosion/content-fg.png",
+				"lightEffectURL": "public/products/nails_sequinexplosion/lighteffect.png",
+				"lightEffectOffset": [120, 10]
+			}],
+			"switchesBgURL": "public/products/nails_sequinexplosion/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "",
+			"getTheLookURL": "http://www.lorealparis.pl/makijaz/paznokcie/color-riche-lakier/lakier303.aspx",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRLAMSERUM",
+				"code": "Cos122_8",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Serum 7 en 1",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_sequinexplosion/colorRicheLaManicureSerum7en1_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLAMFASTD",
+				"code": "Cos122_7",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Fast Dry",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_sequinexplosion/colorRicheLaManicureFastDry_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}]
+		},
+		"nails_platinum": {
+			"id": "CRBLACKSAND",
+			"code": "Cos73_4",
+			"name": "nails_platinum",
+			"title": "COLOR RICHE",
+			"subtitle": "840 Black Sand",
+			"displayName": "nails_platinum",
+			"isActive": true,
+			"videos": {
+				"name": "nails_platinum_before-after",
+				"path": "public/products/nails_platinum/",
+				"framesCount": 168
+			},
+			"logoURL": "public/products/nails_platinum/logo.png",
+			"imageURL": "public/products/nails_platinum/product.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": null,
+				"containerFgURL": "public/products/nails_platinum/container-fg.png",
+				"contentFgURL": "public/products/nails_platinum/content-fg.png",
+				"lightEffectURL": "public/products/nails_platinum/lighteffect.png",
+				"lightEffectOffset": [120, 10]
+			}],
+			"switchesBgURL": "public/products/nails_platinum/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "",
+			"getTheLookURL": "http://www.lorealparis.pl/makijaz/paznokcie/color-riche-lakier/lakier303.aspx",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRLAMSERUM",
+				"code": "Cos122_8",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Serum 7 en 1",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_platinum/colorRicheLaManicureSerum7en1_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLAMFASTD",
+				"code": "Cos122_7",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Fast Dry",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_platinum/colorRicheLaManicureFastDry_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}]
+		},
+		"nails_blacksand": {
+			"id": "CRBLACKSAND",
+			"code": "Cos73_4",
+			"name": "nails_blacksand",
+			"title": "COLOR RICHE",
+			"subtitle": "840 Black Sand",
+			"displayName": "nails_blacksand",
+			"isActive": true,
+			"videos": {
+				"name": "nails_blacksand_before-after",
+				"path": "public/products/nails_blacksand/",
+				"framesCount": 168
+			},
+			"logoURL": "public/products/nails_blacksand/logo.png",
+			"imageURL": "public/products/nails_blacksand/product.png",
+			"switches": [{
+				"containerBgURL": null,
+				"contentBgURL": "public/products/nails_blacksand/content-bg.png",
+				"containerFgURL": "public/products/nails_blacksand/container-fg.png",
+				"contentFgURL": "public/products/nails_blacksand/content-fg.png",
+				"lightEffectURL": "public/products/nails_blacksand/lighteffect.png",
+				"lightEffectOffset": [120, 10]
+			}],
+			"switchesBgURL": "public/products/nails_blacksand/bg.png",
+			"switchesFgURL": null,
+			"hint": "Unlock the Color Riche to watch the look",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "",
+			"getTheLookURL": "http://www.lorealparis.pl/makijaz/paznokcie/color-riche-lakier/lakier303.aspx",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "CRLAMSERUM",
+				"code": "Cos122_8",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Serum 7 en 1",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_blacksand/colorRicheLaManicureSerum7en1_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}, {
+				"id": "CRLAMFASTD",
+				"code": "Cos122_7",
+				"displayName": "Color Riche",
+				"subtitle": "La manicure Fast Dry",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/nails_blacksand/colorRicheLaManicureFastDry_es.png",
+				"shopURL": "",
+				"getTheLookURL": ""
+			}]
+		},
+		"colorRichePopBlue": {
+			"id": "QSMOK",
+			"code": "Cos203_1",
+			"name": "colorRichePopBlue",
+			"title": "Mono Cameleon",
+			"subtitle": "Marron",
+			"displayName": "colorRichePopBlue",
+			"isActive": true,
+			"videos": {
+				"name": "colorRichePopBlue_before-after",
+				"path": "public/products/colorRichePopBlue/",
+				"framesCount": 399
+			},
+			"logoURL": "public/products/colorRichePopBlue/logo.png",
+			"imageURL": "public/products/colorRichePopBlue/monoCameleonMarron.png",
+			"switches": [{
+				"containerBgURL": "public/products/colorRichePopBlue/container-bg.png",
+				"contentBgURL": "public/products/colorRichePopBlue/content-bg.png",
+				"containerFgURL": null,
+				"contentFgURL": null,
+				"lightEffectURL": "public/products/colorRichePopBlue/lightEffect.png",
+				"lightEffectOffset": [-70, 0]
+			}],
+			"switchesBgURL": "public/products/colorRichePopBlue/bg.png",
+			"switchesFgURL": null,
+			"hint": "Ouvrez le produit pour le voir appliqué sur le visage",
+			"price": null,
+			"currency": {
+				"name": "euros",
+				"abbr": "€"
+			},
+			"shopURL": "http://www.eboutique.loreal-paris.fr/",
+			"getTheLookURL": "",
+			"color": null,
+			"colorSwatches": [],
+			"relatedProducts": [{
+				"id": "SLGELINT",
+				"code": "Cos44_1",
+				"displayName": "Superliner",
+				"subtitle": "Get Intense",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRichePopBlue/superlinerGelIntense_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}, {
+				"id": "CR116",
+				"code": "Cos58_20",
+				"displayName": "Color Riche",
+				"subtitle": "116",
+				"price": null,
+				"currency": {
+					"name": "euros",
+					"abbr": "€"
+				},
+				"imageURL": "public/products/colorRichePopBlue/colorRiche116_es.png",
+				"shopURL": "http://www.eboutique.loreal-paris.fr/",
+				"getTheLookURL": ""
+			}]
+		}
+	},
+	"categories": {
+		"eyes": {
+			"name": "eyes",
+			"displayName": "Eyes",
+			"isActive": true,
+			"categories": {
+				"mascara": {
+					"name": "mascara",
+					"displayName": "Mascara",
+					"isActive": true,
+					"products": ["megaVolumeMissManga", "falseLashButterfly", "volumeMillionLashesExcessBlack", "volumeMillionLashesSoCouture"]
+				},
+				"eyeshadow": {
+					"name": "eyeshadow",
+					"displayName": "Eye Shadow",
+					"isActive": true,
+					"products": ["quadSmoky", "monoCameleonMarron", "monoLumiere", "monoPopBlue", "monoPopOrange", "colorRicheLeCrayonDeCouleur"]
+				},
+				"eyeliner": {
+					"name": "eyeliner",
+					"displayName": "Eye Liner",
+					"isActive": true,
+					"products": ["superLinerSilkissime", "superLinerPerfectSlim", "superLinerMatMatic", "superLinerBlackbuster", "browArtistShaper"]
+				}
+			}
+		},
+		"lips": {
+			"name": "lips",
+			"displayName": "Lips",
+			"isActive": true,
+			"categories": {
+				"lipstick": {
+					"name": "lipstick",
+					"displayName": "Lipstick",
+					"isActive": true,
+					"products": ["shineCaresseRed", "shineCaressePink", "colorRicheLextraordinaireRed", "colorRicheLextraordinaireFuschia", "colorRicheLextraordinaireOrange"]
+				},
+				"lipsink": {
+					"name": "lipsink",
+					"displayName": "Lips Ink",
+					"isActive": true,
+					"products": []
+				},
+				"gloss": {
+					"name": "gloss",
+					"displayName": "Gloss",
+					"isActive": true,
+					"products": ["glamShineBalmyGloss"]
+				},
+				"balm": {
+					"name": "balm",
+					"displayName": "Balm",
+					"isActive": true,
+					"products": []
+				}
+			}
+		},
+		"nails": {
+			"name": "nails",
+			"displayName": "Nails",
+			"isActive": true,
+			"categories": {
+				"nailpolish": {
+					"name": "nailpolish",
+					"displayName": "Nail Polish",
+					"isActive": true,
+					"products": ["colorRicheSpringItShade", "colorRicheConfetti842", "colorRicheBlackSand840", "colorRicheChristmas845"]
+				},
+				"topcoat": {
+					"name": "topcoat",
+					"displayName": "Top Coat",
+					"isActive": true,
+					"products": ["topCoatTweed", "topCoatGoldLeaf"]
+				},
+				"nailart": {
+					"name": "nailart",
+					"displayName": "Nail Art",
+					"isActive": true,
+					"products": []
+				}
+			}
+		}
+	}
+}
